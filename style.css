@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
 
 :root{
     --cor-soft-blue: hsl(215, 51%, 70%);
@@ -63,6 +63,7 @@ svg {
 
 .img:hover svg {
     opacity: 1;
+    cursor: pointer;
 }
 
 article h2{
@@ -70,6 +71,11 @@ article h2{
     font-family: var(--font-f);
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+article h2:hover{
+    color: aqua;
+    cursor: pointer;
 }
 
 article p{
